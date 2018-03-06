@@ -1,0 +1,21 @@
+{
+  "type": "record",
+  "name": "LargeSchema",
+  "fields" : [
+    {"name": "f0", "type": "string"},
+    {
+      "name": "header",
+      "type": {
+        "type": "record",
+        "name": "Header",
+        "fields": [
+          {"name": "hf1", "type": "string"},
+          {"name": "hf2", "type": "long"}
+        ]
+      }
+    },
+    {"name": "f1", "type": "string"},
+    {"name": "f2", "type": "long"},
+    {"name": "f3", "type": "bytes"}
+  ]
+}

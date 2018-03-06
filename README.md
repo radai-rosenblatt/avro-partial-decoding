@@ -1,0 +1,1 @@
+proof-of-concept and benchmark code for partially decoding avro binary payloads
